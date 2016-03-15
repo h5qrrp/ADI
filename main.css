@@ -1,6 +1,8 @@
 body {
 	background-image: url('http://www.pixeden.com/media/k2/galleries/165/003-subtle-light-pattern-background-texture-vol5.jpg');
+    width: 50%;
 }
+
 
 /*top nav*/
 body {margin:0;}
@@ -10,7 +12,7 @@ body {margin:0;}
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    position: relative;
+    position: fixed;
     top: 0;
     width: 100%;
 }
@@ -43,7 +45,7 @@ body {margin:0;}
     width: 200px;
     background-color: #f1f1f1;
     border: 1px solid #555;
-    margin-top: 30px;
+    margin-top: 200px;
     margin-left: 15px;
     position: absolute;
 }
@@ -76,9 +78,9 @@ body {margin:0;}
 }
 
 /*copyright*/
-#copyright {
+.copyright {
 	margin-left: 1200px;
-	margin-top: 625px;
+	margin-top: 650px;
 	color: red;
 	position: absolute;
 }
@@ -86,15 +88,8 @@ body {margin:0;}
 /*main welcome*/
 #main-welcome {
 	margin-left: 450px;
+    margin-top: 50px;
 	position: absolute;
 	color: grey;
 }
 
-/*box*/
-#box {
-	margin-left: 450px;
-	margin-top: 100px;
-	position: absolute;
-	font-size: 25px;
-	border: solid;
-}
